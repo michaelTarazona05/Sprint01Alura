@@ -16,3 +16,77 @@ main {
     margin-bottom: 50px;
     margin-left: 80px;
 }
+
+.text-area{
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder{ color: #0A3871;} /*Pseudo etiqueta*/
+    .text-area:focus{   /*quitar el foco del cuadro del textarea*/
+        outline: none;
+    }
+
+.mensaje{
+    background: #FFFFFF;
+    background-image: url("/img/Muñeco.png"); /*agregamos imagen para el estilo*/
+    background-repeat: no-repeat; /*Para no repetir imagen del fondo*/
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;    
+}
+.mensaje:focus{
+    outline: none; /*Quitar foco al mensaje*/
+}
+
+.botones{
+    display: flex;  /*Para que los botones esten al lado del otro*/
+    margin-top: 18px;
+}
+
+.btn-encriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #FFFFFF;
+    cursor: pointer;    /*Tranforma el cursor en una mano apuntando*/
+    height: 67px;
+    width: 328px;
+}
+
+.btn-desencriptar{
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.copiar{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
+}
+
+.informacion{
+    color: #495057;
+    font-size: 18px;
+}
+
+
+
